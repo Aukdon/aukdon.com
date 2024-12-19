@@ -6,6 +6,7 @@
     <meta name="description" content="A cloud application development company.">
     <link rel="icon" href="/assets/icons/TamilNady_Map_Icon.png">
     <title>Aukdon</title>
+    <link rel="stylesheet" href="/styles.css">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google fonts -->
@@ -19,7 +20,7 @@
     <div class="gap-y-4 grid min-h-dvh grid-rows-[1fr_auto] sm:grid-rows-[1fr_auto] relative sm:pt-20">
         
         <!-- Header -->
-        <div class="hidden sm:block sm:grid bg-white p-4 grid-cols-12 gap-5 sm:rounded-lg sm:drop-shadow-md absolute left-0 right-0 z-10">
+        <div class="hidden sm:block sm:grid bg-white p-4 grid-cols-12 gap-5 sm:rounded-lg sm:drop-shadow-md absolute left-0 right-0 z-10 slideInTop">
             <div class="col-span-2 flex justify-center items-center">
                 <!-- <img class="max-w-[32px]" src="/assets/icons/TamilNady_Map_Icon.png"> -->
                 <h1 class="text-[20px] font-['Fredoka']">aukdon</h1>
@@ -77,7 +78,7 @@
                         Maximize your business potential with SaaS solutions designed for speed, scalability, and success.
                     </p>
                     
-                    <a href="/pages/contact/index.html" target="_blank">
+                    <a href="/pages/contact/index.html">
                         <button class="bg-[#7678ED] p-4 rounded-lg mt-5 text-white hover:bg-white hover:text-[#7678ED] border hover:border-[#7678ED]">Get started for free!</button>
                     </a>
                     
@@ -92,7 +93,19 @@
                 </div>
                 
                 <!-- List of products - RIGHT side -->
-                <div class=" grid gap-10 lg:col-span-4 bg-white p-10 sm:drop-shadow sm:rounded-lg">
+                <div class=" grid gap-10 lg:col-span-4 bg-white p-10 sm:drop-shadow sm:rounded-lg slideInRight">
+
+                    <a href="https://quwad.com" target="_blank" class="sm:hover:-translate-y-1 sm:duration-150">
+                        <div class="lg:grid lg:grid-cols-12">
+                            <div class="col-span-5 grid justify-center lg:justify-start sm:col-span-3">
+                                <img class="w-full max-w-[64px]" src="https://cdn-icons-png.flaticon.com/512/17055/17055223.png">
+                            </div>
+                            <div class="col-span-7 sm:col-span-9">
+                                <h3 class="text-[20px] font-['Fredoka']">Quwad</h3>
+                                <p class="text-black/75">Application to register and organize sports tournaments. </p>
+                            </div>
+                        </div>
+                    </a>
 
                     <a href="#" class="sm:hover:-translate-y-1 sm:duration-150">
                         <div class="lg:grid lg:grid-cols-12" >
@@ -106,19 +119,7 @@
                         </div>
                     </a>
 
-                   <a href="https://github.com/thekuvel/GOD_FrontEnd" target="_blank" class="sm:hover:-translate-y-1 sm:duration-150">
-                        <div class="lg:grid lg:grid-cols-12">
-                            <div class="col-span-5 grid justify-center lg:justify-start sm:col-span-3">
-                                <img class="w-full max-w-[64px]" src="https://cdn-icons-png.flaticon.com/512/9385/9385681.png">
-                            </div>
-                            <div class="col-span-7 sm:col-span-9">
-                                <h3 class="text-[20px] font-['Fredoka']">Game Of Domination</h3>
-                                <p class="text-black/75">Application to book playground, participate and create tournaments. </p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#" class="sm:hover:-translate-y-1 sm:duration-150">
+                    <a href="https://github.com/Aukdon/careerda" target="_blank" class="sm:hover:-translate-y-1 sm:duration-150">
                         <div class="lg:grid lg:grid-cols-12 ">
                             <div class="col-span-5 grid justify-center lg:justify-start sm:col-span-3">
                                 <img class="w-full max-w-[64px]" src="https://cdn-icons-png.flaticon.com/512/9559/9559141.png">
@@ -147,7 +148,7 @@
             <!-- ******************** -->
 
             <!-- Section two -->
-             <div class="p-20 grid lg:grid-cols-12 bg-[#FFE700] gap-y-10 drop-shadow text-justify sm:text-center lg:text-justify">
+             <div class="p-20 grid lg:grid-cols-12 bg-[#FFE700] gap-y-10 drop-shadow text-justify sm:text-center lg:text-justify animateOnScroll slideInLeft">
                 <div class="lg:col-span-5">
                     <h2 class="text-[32px] lg:text-start font-['Fredoka']">aukdon</h2>
                     <p>We provide uniquely customised solution for all business type and size.</p>
@@ -170,7 +171,7 @@
 
 
              <!-- Section Three -->
-             <div class="p-5 sm:p-0 grid lg:grid-cols-12 gap-5">
+             <div class="p-5 sm:p-0 grid lg:grid-cols-12 gap-5 animateOnScroll slideInRight">
 
                 <div class="col-span-6">
                     <h2 class="text-[32px] font-['Fredoka']">Dedicated Support</h2>
@@ -200,7 +201,7 @@
              <!-- ******************** -->
 
               <!-- Section four -->
-              <div class="p-5 sm:p-0 grid lg:grid-cols-12 gap-5">
+              <div class="p-5 sm:p-0 grid lg:grid-cols-12 gap-5 animateOnScroll slideInLeft">
                 
                 <h2 class="text-[32px] font-['Fredoka'] block sm:hidden">Transparent billing</h2>
                 
@@ -256,7 +257,7 @@
                 </div>
             </div>
             <div class="col-span-12 text-center text-black/75 mt-10">
-                © 2024 aukdon
+                © 2025 aukdon
             </div>
         </div>
     </div>
